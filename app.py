@@ -19,7 +19,7 @@ Graduate Software Engineer Specializing Machine Learning
 """
 EMAIL = "barry@xander.co.nz \n :phone: +6427243227"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/barry-rerecich-5b2b68195/",
+    "LinkedIn": "https://www.linkedin.com/in/barry-xander-5b2b68195/",
     "GitHub": "https://github.com/barrymoana",
     
 }
