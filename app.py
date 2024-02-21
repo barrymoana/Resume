@@ -15,18 +15,18 @@ PAGE_TITLE = "Digital CV | Barry Rerecich"
 PAGE_ICON = ":wave:"
 NAME = "Barry Rerecich"
 DESCRIPTION = """
-Graduate Software Engineer Specializing in Generative AI and Computer Vision
+Graduate Software Engineer Specializing Machine Learning
 """
-EMAIL = "barry.rerecich@gmail.com \n :phone: +6427243227"
+EMAIL = "barry@xander.co.nz \n :phone: +6427243227"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/barry-rerecich-5b2b68195/",
     "GitHub": "https://github.com/barrymoana",
     
 }
 PROJECTS = {
-    "🏆 PDF GPT Chat - Upload PDF & Chat With It": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Image Classifier - Classify User Uploaded Images": "https://youtu.be/3egaMfE9388",
-    "🏆 Voice Assistant Powered Youtube Chatbot - User Can Have A Conversation Regarding Given Video": "https://youtu.be/LzCfNanQ_9c",
+    "🏆 PDF GPT Chat - Upload PDF & Chat With It": "https://github.com/barrymoana/PDFChatter",
+    "🏆 Dog Cat Classifer - Tensorflow CNN Classifier": "https://github.com/barrymoana/CNN_CatDog",
+    "🏆 Fruit Classifier - Instance Segmentation Model": "https://github.com/barrymoana/FruitClassifier",
 }
 
 
@@ -142,7 +142,7 @@ st.write(
 
 # --- References ---
 st.write('\n')
-st.subheader("Referennces")
+st.subheader("References")
 st.write("---")
 
 st.write("Dr.Ranpreet Kaur - Lecturer @ MDS")
