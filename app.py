@@ -79,8 +79,7 @@ st.write('\n')
 st.subheader("Projects")
 st.write("---")
 for project, link in PROJECTS.items():
-    st.markdown(f'<span style="color: red;">{project}</span> [GitHub Link]({link})', unsafe_allow_html=True)
-
+    st.write(f"[{project}]({link})")
 
 
 
