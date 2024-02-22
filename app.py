@@ -146,8 +146,8 @@ st.subheader("References")
 st.write("---")
 
 st.write("Dr.Ranpreet Kaur - Lecturer @ MDS")
-st.write("📫","ranpreet.kaur@mediadesignschool.com :phone: +642041794908 ")
+st.write("📫","ranpreet.kaur@mediadesignschool.com")
 st.write("---")
 
 st.write("Logan Yelavich - Owner @ Yelavich Transport")
-st.write("📫","loganyel@gmail.com :phone: +642102658460 ")
+st.write("📫","loganyel@gmail.com")
