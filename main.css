@@ -3,6 +3,21 @@
 
 * {font-family: 'Readex Pro';}
 
+body {
+    background-color: rgb(101, 71, 71);
+}
+
+body, .stApp {
+    color: white;
+    background-color: black;
+}
+
+
+body, .stApp, div, span, p, a, li, h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+
+
 
 a {
     text-decoration: none;
