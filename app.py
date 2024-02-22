@@ -13,13 +13,14 @@ css_file = current_dir / "main.css"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Barry Rerecich"
 PAGE_ICON = ":wave:"
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 NAME = "Barry Rerecich"
 DESCRIPTION = """
 Graduate Software Engineer Specializing Machine Learning
 """
 EMAIL = "barry@xander.co.nz \n :phone: +6427243227"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/barry-xander-5b2b68195/",
+    "LinkedIn": "https://www.linkedin.com/in/barry-rerecich-5b2b68195/",
     "GitHub": "https://github.com/barrymoana",
     
 }
@@ -30,7 +31,10 @@ PROJECTS = {
 }
 
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
+
+
+
 
 
 # --- LOAD CSS, PDF 
@@ -68,12 +72,18 @@ st.write(
 """
 )
 
+
+
 # --- Projects & Accomplishments ---
 st.write('\n')
 st.subheader("Projects")
 st.write("---")
 for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+    st.markdown(f'<span style="color: red;">{project}</span> [GitHub Link]({link})', unsafe_allow_html=True)
+
+
+
+
 
 # --- WORK HISTORY ---
 st.write('\n')
